@@ -2,7 +2,10 @@
 
 
 //* THIS PROGRAM GETS THE MISSING VARIABLE OF AN EQUATION FOR CALCULATING REMAINING DEBT, THEN FIND IT. IF THE LAST VARIABLE IS MISSING,
-// THE NEWTON-RAPHSON METHOD IS APPLIED, WHICH STARTS BY BASICLY APPROXIMATING THAT VALUE.**//
+// WE APPLY NEWTON-RAPHSON METHOD, WHICH STARTS BY BASICLY APPROXIMATING THAT VALUE.**//
+// the variable l,n,p,r stands for borrowed money loan, month, monthly payment and monthly interest rate
+// the equation used for remaining dept calcuulation is e^n*L −(e^n-1/e-1)*p=0
+
 int missing;
 float n;
 double e,l,p,r,a;
